@@ -1,0 +1,1428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18B664D4DBF22B3F6B271154516833C2 /* Build configuration list for PBXAggregateTarget "GoogleWebRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleWebRTC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		068E5963381B58D7D8CD321462F567ED /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DD5C8192E767B6D79CD356B11029C /* Compression.swift */; };
+		095547A88EE037F12395713A469C9B60 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2FE1E8CD54B094A5BAB2D38927199 /* ConstraintLayoutSupport.swift */; };
+		0D7A7F3919AE48736753181756DE8AE8 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FC3B8F455426B771035D9FD8741685 /* Typealiases.swift */; };
+		0FA8E62C7A4A6DA9BB841007B5E16CD4 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBBA9B08F9D2ADC9DE9FA130C83AD2 /* ConstraintMakerFinalizable.swift */; };
+		12833D340E66DFA848DCD653E750C7EF /* Pods-KWebRTCP2PDemo_swiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2AA03AECE45333640C2A05C8F7A788 /* Pods-KWebRTCP2PDemo_swiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E9ACC5796C5E35C84DD6659BEB788F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B45B24C3824A435D46A47A778C12A6 /* ConstraintPriorityTarget.swift */; };
+		1627E6FA0453D6DB472BA444F1D32AE7 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D48CF9193782C0364B13ED8B6D302B /* SSLClientCertificate.swift */; };
+		260FD0E9426AE39429DF20CD833A24C0 /* Pods-KWebRTCP2PDemo_swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2983A0E251037837FC72849029986B46 /* Pods-KWebRTCP2PDemo_swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271040EC2ADCF4FF60F68150B6963DF7 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D6468F1CA3BF37A91DE02E7037E404 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-dummy.m */; };
+		276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68130A6F8678D34834BB233E02426200 /* ConstraintLayoutGuideDSL.swift */; };
+		28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E373973D065356A1A2CA6F79B670FC /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294D61E8A195B6A1F6AEDCF0F73599A5 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F98B01CB4EF86D292F4D2E88BC3DC /* Starscream-dummy.m */; };
+		35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3A972F590E3513B776B927A31B5F3 /* ConstraintMakerRelatable.swift */; };
+		3AA5B5E94266FFAFCEBCA139B850E853 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C214D3ACDD8F4B9DE861CEC8196616CC /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		418E47C2826961720C6396B27E94A2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61241EEDE35B1C1D6EEC9F2EF6DFA3DE /* ConstraintMakerEditable.swift */; };
+		54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4792411A9790421195B4454E675F3E /* ConstraintInsets.swift */; };
+		5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B016CA330E26933C9072ABF35A28F0F4 /* ConstraintView.swift */; };
+		5C376607904258A10F4DDD6D42EFC491 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBFB0EE5F3900D81B09C0D6A0928CF6 /* ConstraintMaker.swift */; };
+		5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87FDDB8A4D2C18DEB380ED002DAFD6 /* SnapKit-dummy.m */; };
+		60024F68A443341A8944D8B1CEF14B66 /* Pods-KWebRTCP2PDemo_swiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A5FB5C750BE2B7AB36C599D9A0DDB6 /* Pods-KWebRTCP2PDemo_swiftTests-dummy.m */; };
+		67776864843D84DC929C1B66FF8C94F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969F0F23B22E0FA45CA029AD493C191 /* ConstraintDSL.swift */; };
+		72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1585A5B678F65AB1B93D2175BBC596C3 /* ConstraintOffsetTarget.swift */; };
+		77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051FEA3D1D587C72C7931A08FAA952C1 /* ConstraintView+Extensions.swift */; };
+		7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7648D80E0CCD51E456F5E7FED1EEB2 /* LayoutConstraintItem.swift */; };
+		8396CF8D95F459D4A97F9DBC5216444D /* Pods-KWebRTCP2PDemo_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC407E86984654D51D70A29868D1EE85 /* Pods-KWebRTCP2PDemo_swift-dummy.m */; };
+		8B3350D96B15B975184C8EE0819F9623 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2E3FBA08940B7C1C342D2C8E3B31C /* SSLSecurity.swift */; };
+		8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A761C218C427FFB7D72D2A104DFDC /* ConstraintMakerPriortizable.swift */; };
+		9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E195ADFA1F4E3C7E68C722EF9C734321 /* Debugging.swift */; };
+		96D67F9A7630A34944B6EAAD47F785E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F2BAB43472B381B1636D9F540C56B /* UILayoutSupport+Extensions.swift */; };
+		9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5FF64ECF2E4404710103B2B22F10F3 /* ConstraintDescription.swift */; };
+		9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B2C3AC9CB90A099B490F2BDD76357 /* ConstraintConstantTarget.swift */; };
+		A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F59F6E9CF35A024565BF5F89AF48 /* ConstraintConfig.swift */; };
+		A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB2461573510BFE05098D0EA1796F5F /* ConstraintMultiplierTarget.swift */; };
+		A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F8F6F7A27A36729F9070DCDC155297 /* ConstraintAttributes.swift */; };
+		A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77FC45841A94F9AF8BDBCE7247BC98C /* ConstraintPriority.swift */; };
+		B4A6283FDFA04E3A7B6FD0C13B6FEF32 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BDC56E8C4DFEA8F2E5F7ED7AB5D55D /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F2DA583DA50BEE17C9F54206972DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E61BB3688042F08985AAB244DF4A0 /* LayoutConstraint.swift */; };
+		C02D9FEB295BDA1359D2F52C80F8E75A /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB33E02A5F9882AADC97A11D8EB131 /* WebSocket.swift */; };
+		C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E7079368EA3F853862CFECDE8B56D /* ConstraintRelation.swift */; };
+		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36AD7AFC077F82B5CC183368ED95547 /* ConstraintItem.swift */; };
+		DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB475C253A359C9A68D523F69803D2B4 /* ConstraintLayoutGuide+Extensions.swift */; };
+		DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF75AA965101A7726B6F15F7C8CCF1 /* Constraint.swift */; };
+		DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B120148053C5AB4F8BC82CCAD27B4A6 /* ConstraintViewDSL.swift */; };
+		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555351B2186A6C7CDAF314A2E71F715 /* ConstraintRelatableTarget.swift */; };
+		EE3B218FC423494905BCEC3AFD1D44C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78285EF3EE7FB918CBA48EBEE49375B1 /* ConstraintInsetTarget.swift */; };
+		F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877B2E6C5D6B645870C568CBD47B3A93 /* ConstraintLayoutSupportDSL.swift */; };
+		FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E3188ED7FC365E3812D9AB6E7F14F /* ConstraintMakerExtendable.swift */; };
+		FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BA6FCDAD9D907D66343B96946D3283 /* ConstraintLayoutGuide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04800D846597BE9F58349695A1DFF6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB8EF2BF1ADD1B59D89BE216832D5AF;
+			remoteInfo = "Pods-KWebRTCP2PDemo_swift";
+		};
+		2407BB29EC1D5C7757E5B14D993C7D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		52252E517BAAB486D716D275650D5AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		547DCDC9C69E5FCF5E83138EB76F29C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		5DD309FC5DE1418F06F8D6B5DB280EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+		B8A5C7AF9C1B0D418D4105714D50CECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23BFCFC44D9224C054485B54824B8E;
+			remoteInfo = GoogleWebRTC;
+		};
+		BAEE8A4FA047986C5C795AF5394992F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C68A01FBB1AD0D0D5E27E124493D18 /* Pods-KWebRTCP2PDemo_swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWebRTCP2PDemo_swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		0331804714BDFCAA56894D1893FAD38E /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.modulemap"; sourceTree = "<group>"; };
+		042221A64636ABB254576BBE1B25A5A6 /* Pods-KWebRTCP2PDemo_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWebRTCP2PDemo_swift.release.xcconfig"; sourceTree = "<group>"; };
+		042B98FA79FB19B1C9F5C857E5F927D6 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		051FEA3D1D587C72C7931A08FAA952C1 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		0E223D9F2A2C9AB35443B2C6F0DA35A4 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		1585A5B678F65AB1B93D2175BBC596C3 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		1B6F98B01CB4EF86D292F4D2E88BC3DC /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		1FBFB0EE5F3900D81B09C0D6A0928CF6 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		258E7079368EA3F853862CFECDE8B56D /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		28916FAB2F82BB2A2C96E94DBD8D8263 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		28C7B2A49B813763EC5F610598476ABB /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		293B2C3AC9CB90A099B490F2BDD76357 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		293E61BB3688042F08985AAB244DF4A0 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		2983A0E251037837FC72849029986B46 /* Pods-KWebRTCP2PDemo_swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWebRTCP2PDemo_swift-umbrella.h"; sourceTree = "<group>"; };
+		2A2AA03AECE45333640C2A05C8F7A788 /* Pods-KWebRTCP2PDemo_swiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWebRTCP2PDemo_swiftTests-umbrella.h"; sourceTree = "<group>"; };
+		2E6CBC2F281AFAF6B70FC04503CC2697 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3838FDBC0E111A070C711F4893F5BA03 /* Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A06F4E6EDABE68C9EDE4FFD7A362D98 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		3A38044F0A22C5728DFCAEAF915CC8D3 /* Pods_KWebRTCP2PDemo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWebRTCP2PDemo_swiftTests.framework; path = "Pods-KWebRTCP2PDemo_swiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40910BF685386E079375840CFCE7A2FC /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		43D6468F1CA3BF37A91DE02E7037E404 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-dummy.m"; sourceTree = "<group>"; };
+		4D5FF64ECF2E4404710103B2B22F10F3 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		5123DACE8CC9C433490AF7A81CB6634D /* Pods_KWebRTCP2PDemo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWebRTCP2PDemo_swift.framework; path = "Pods-KWebRTCP2PDemo_swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5588687348EB0CB71C13DA95AB524578 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		57E2FE1E8CD54B094A5BAB2D38927199 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		5969F0F23B22E0FA45CA029AD493C191 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		5B120148053C5AB4F8BC82CCAD27B4A6 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		5CDDDC4B5E5381F7CE09B077A2DAB67B /* Pods-KWebRTCP2PDemo_swiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWebRTCP2PDemo_swiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61241EEDE35B1C1D6EEC9F2EF6DFA3DE /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		6555351B2186A6C7CDAF314A2E71F715 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		67AB33E02A5F9882AADC97A11D8EB131 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		68130A6F8678D34834BB233E02426200 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6B4A761C218C427FFB7D72D2A104DFDC /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		6DEC7A5129F288B16875A8EBAC9BCD6B /* Pods-KWebRTCP2PDemo_swiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWebRTCP2PDemo_swiftTests-Info.plist"; sourceTree = "<group>"; };
+		73FF75AA965101A7726B6F15F7C8CCF1 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		75FC3B8F455426B771035D9FD8741685 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		781F1CBC5CAB45D98BAC6CB5A6E75C58 /* Pods-KWebRTCP2PDemo_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWebRTCP2PDemo_swift.modulemap"; sourceTree = "<group>"; };
+		782152B5FA0D91882432D06E86A0938A /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		78285EF3EE7FB918CBA48EBEE49375B1 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		7B614E8284F947A0F860761838D0B055 /* Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80E373973D065356A1A2CA6F79B670FC /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		877B2E6C5D6B645870C568CBD47B3A93 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A5FB5C750BE2B7AB36C599D9A0DDB6 /* Pods-KWebRTCP2PDemo_swiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWebRTCP2PDemo_swiftTests-dummy.m"; sourceTree = "<group>"; };
+		8B390CCA5CE74B5173F750139D3ABA06 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BC2E3FBA08940B7C1C342D2C8E3B31C /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
+		91F8F6F7A27A36729F9070DCDC155297 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7E3188ED7FC365E3812D9AB6E7F14F /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F87FDDB8A4D2C18DEB380ED002DAFD6 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		A36AD7AFC077F82B5CC183368ED95547 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		A3D48CF9193782C0364B13ED8B6D302B /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
+		A56515350D628B9AC6B9BBBB8D44D5B5 /* Pods-KWebRTCP2PDemo_swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWebRTCP2PDemo_swift-frameworks.sh"; sourceTree = "<group>"; };
+		A6BDC56E8C4DFEA8F2E5F7ED7AB5D55D /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		A7FCEC826F19CCF2418BD97C93D528FA /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8BBBA9B08F9D2ADC9DE9FA130C83AD2 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		AB7648D80E0CCD51E456F5E7FED1EEB2 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		AD2B59916D7F324D13FEB50D40CFF649 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AD909BDD1C7C4C032BA6A20080C206FD /* Pods-KWebRTCP2PDemo_swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWebRTCP2PDemo_swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE4792411A9790421195B4454E675F3E /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		AE546B10B4A4321C7AC138BF76680503 /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB2461573510BFE05098D0EA1796F5F /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		B016CA330E26933C9072ABF35A28F0F4 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		B190726738F91CB57E8F98D3D97AC05B /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		B6747DC322B93BE263B0749C8A8A9BC4 /* Pods-KWebRTCP2PDemo_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWebRTCP2PDemo_swift-Info.plist"; sourceTree = "<group>"; };
+		BC407E86984654D51D70A29868D1EE85 /* Pods-KWebRTCP2PDemo_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWebRTCP2PDemo_swift-dummy.m"; sourceTree = "<group>"; };
+		BE9558D258B567B0FE99E50751B63D4A /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		C214D3ACDD8F4B9DE861CEC8196616CC /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		C544E0AB4B6AF2412840845963E6C547 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-Info.plist"; sourceTree = "<group>"; };
+		C77FC45841A94F9AF8BDBCE7247BC98C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		CB475C253A359C9A68D523F69803D2B4 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		CBA9F59F6E9CF35A024565BF5F89AF48 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		CC066EB81A5D3D540E3C48D590C0533B /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D13F0703CCAE4CE1A21A65542DBF4E89 /* Pods-KWebRTCP2PDemo_swiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWebRTCP2PDemo_swiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5B45B24C3824A435D46A47A778C12A6 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		D73DD5C8192E767B6D79CD356B11029C /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
+		D9B077B15425231905C2FA0159A86221 /* Pods-KWebRTCP2PDemo_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWebRTCP2PDemo_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E195ADFA1F4E3C7E68C722EF9C734321 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		E3BA6FCDAD9D907D66343B96946D3283 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		E514C3944EC4B66714A839295EBFB667 /* GoogleWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.debug.xcconfig; sourceTree = "<group>"; };
+		E7C3C570855C3F23DB61F98E77203540 /* Pods-KWebRTCP2PDemo_swiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWebRTCP2PDemo_swiftTests.modulemap"; sourceTree = "<group>"; };
+		E8EBFF5E27F8FDA3DBD7CE9908855F4D /* GoogleWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.release.xcconfig; sourceTree = "<group>"; };
+		F1F585DC14344786EB56C653ED824A57 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		F50F2BAB43472B381B1636D9F540C56B /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		F6E3A972F590E3513B776B927A31B5F3 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09206235EB9393FD6D895453F2569AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D67F9A7630A34944B6EAAD47F785E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB7E41CEF06709199790EE013ED251D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F2DA583DA50BEE17C9F54206972DF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A173863657894A01CB54BA862DDBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67776864843D84DC929C1B66FF8C94F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861ABB90E2538D82A9A9C929F279B52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3B218FC423494905BCEC3AFD1D44C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB82DDF03E5985F280CBAD82F4F3CFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418E47C2826961720C6396B27E94A2EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8B1048115845D4445A6DFF117A131B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A04AB8EA68CAB15CB5E49747FBCCA8 /* Pods-KWebRTCP2PDemo_swift */,
+				EE2DB52F9570D233E8AAD1D4D7B9D7A9 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests */,
+				604858703A4E40FE5BC8A9033714340E /* Pods-KWebRTCP2PDemo_swiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CABE854B0CE98845E717AA19F12F372 /* GoogleWebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				5D0FEA5BA1B107DB9F2842B36AAE923B /* Frameworks */,
+				C13B9849BC185ABA92EBE2FA9534EC02 /* Support Files */,
+			);
+			name = GoogleWebRTC;
+			path = GoogleWebRTC;
+			sourceTree = "<group>";
+		};
+		2F3B391E685A287CF781D249F6B2E70C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E223D9F2A2C9AB35443B2C6F0DA35A4 /* Starscream.modulemap */,
+				1B6F98B01CB4EF86D292F4D2E88BC3DC /* Starscream-dummy.m */,
+				B190726738F91CB57E8F98D3D97AC05B /* Starscream-Info.plist */,
+				5588687348EB0CB71C13DA95AB524578 /* Starscream-prefix.pch */,
+				A6BDC56E8C4DFEA8F2E5F7ED7AB5D55D /* Starscream-umbrella.h */,
+				782152B5FA0D91882432D06E86A0938A /* Starscream.debug.xcconfig */,
+				28C7B2A49B813763EC5F610598476ABB /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		4DC731A98271C118D58AAF062A9B7D72 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				D73DD5C8192E767B6D79CD356B11029C /* Compression.swift */,
+				A3D48CF9193782C0364B13ED8B6D302B /* SSLClientCertificate.swift */,
+				8BC2E3FBA08940B7C1C342D2C8E3B31C /* SSLSecurity.swift */,
+				67AB33E02A5F9882AADC97A11D8EB131 /* WebSocket.swift */,
+				2F3B391E685A287CF781D249F6B2E70C /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		4E56405F759915C6B3F797D0B34B05DD /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				73FF75AA965101A7726B6F15F7C8CCF1 /* Constraint.swift */,
+				91F8F6F7A27A36729F9070DCDC155297 /* ConstraintAttributes.swift */,
+				CBA9F59F6E9CF35A024565BF5F89AF48 /* ConstraintConfig.swift */,
+				293B2C3AC9CB90A099B490F2BDD76357 /* ConstraintConstantTarget.swift */,
+				4D5FF64ECF2E4404710103B2B22F10F3 /* ConstraintDescription.swift */,
+				5969F0F23B22E0FA45CA029AD493C191 /* ConstraintDSL.swift */,
+				AE4792411A9790421195B4454E675F3E /* ConstraintInsets.swift */,
+				78285EF3EE7FB918CBA48EBEE49375B1 /* ConstraintInsetTarget.swift */,
+				A36AD7AFC077F82B5CC183368ED95547 /* ConstraintItem.swift */,
+				E3BA6FCDAD9D907D66343B96946D3283 /* ConstraintLayoutGuide.swift */,
+				CB475C253A359C9A68D523F69803D2B4 /* ConstraintLayoutGuide+Extensions.swift */,
+				68130A6F8678D34834BB233E02426200 /* ConstraintLayoutGuideDSL.swift */,
+				57E2FE1E8CD54B094A5BAB2D38927199 /* ConstraintLayoutSupport.swift */,
+				877B2E6C5D6B645870C568CBD47B3A93 /* ConstraintLayoutSupportDSL.swift */,
+				1FBFB0EE5F3900D81B09C0D6A0928CF6 /* ConstraintMaker.swift */,
+				61241EEDE35B1C1D6EEC9F2EF6DFA3DE /* ConstraintMakerEditable.swift */,
+				9A7E3188ED7FC365E3812D9AB6E7F14F /* ConstraintMakerExtendable.swift */,
+				A8BBBA9B08F9D2ADC9DE9FA130C83AD2 /* ConstraintMakerFinalizable.swift */,
+				6B4A761C218C427FFB7D72D2A104DFDC /* ConstraintMakerPriortizable.swift */,
+				F6E3A972F590E3513B776B927A31B5F3 /* ConstraintMakerRelatable.swift */,
+				AEB2461573510BFE05098D0EA1796F5F /* ConstraintMultiplierTarget.swift */,
+				1585A5B678F65AB1B93D2175BBC596C3 /* ConstraintOffsetTarget.swift */,
+				C77FC45841A94F9AF8BDBCE7247BC98C /* ConstraintPriority.swift */,
+				D5B45B24C3824A435D46A47A778C12A6 /* ConstraintPriorityTarget.swift */,
+				6555351B2186A6C7CDAF314A2E71F715 /* ConstraintRelatableTarget.swift */,
+				258E7079368EA3F853862CFECDE8B56D /* ConstraintRelation.swift */,
+				B016CA330E26933C9072ABF35A28F0F4 /* ConstraintView.swift */,
+				051FEA3D1D587C72C7931A08FAA952C1 /* ConstraintView+Extensions.swift */,
+				5B120148053C5AB4F8BC82CCAD27B4A6 /* ConstraintViewDSL.swift */,
+				E195ADFA1F4E3C7E68C722EF9C734321 /* Debugging.swift */,
+				293E61BB3688042F08985AAB244DF4A0 /* LayoutConstraint.swift */,
+				AB7648D80E0CCD51E456F5E7FED1EEB2 /* LayoutConstraintItem.swift */,
+				75FC3B8F455426B771035D9FD8741685 /* Typealiases.swift */,
+				F50F2BAB43472B381B1636D9F540C56B /* UILayoutSupport+Extensions.swift */,
+				79D32B051D91B182816821B8D00AD681 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		5AECDAB72D5B4671A985B12A82BDB76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5123DACE8CC9C433490AF7A81CB6634D /* Pods_KWebRTCP2PDemo_swift.framework */,
+				AE546B10B4A4321C7AC138BF76680503 /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework */,
+				3A38044F0A22C5728DFCAEAF915CC8D3 /* Pods_KWebRTCP2PDemo_swiftTests.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0FEA5BA1B107DB9F2842B36AAE923B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40910BF685386E079375840CFCE7A2FC /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		604858703A4E40FE5BC8A9033714340E /* Pods-KWebRTCP2PDemo_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C3C570855C3F23DB61F98E77203540 /* Pods-KWebRTCP2PDemo_swiftTests.modulemap */,
+				D13F0703CCAE4CE1A21A65542DBF4E89 /* Pods-KWebRTCP2PDemo_swiftTests-acknowledgements.markdown */,
+				5CDDDC4B5E5381F7CE09B077A2DAB67B /* Pods-KWebRTCP2PDemo_swiftTests-acknowledgements.plist */,
+				89A5FB5C750BE2B7AB36C599D9A0DDB6 /* Pods-KWebRTCP2PDemo_swiftTests-dummy.m */,
+				6DEC7A5129F288B16875A8EBAC9BCD6B /* Pods-KWebRTCP2PDemo_swiftTests-Info.plist */,
+				2A2AA03AECE45333640C2A05C8F7A788 /* Pods-KWebRTCP2PDemo_swiftTests-umbrella.h */,
+				7B614E8284F947A0F860761838D0B055 /* Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig */,
+				3838FDBC0E111A070C711F4893F5BA03 /* Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig */,
+			);
+			name = "Pods-KWebRTCP2PDemo_swiftTests";
+			path = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests";
+			sourceTree = "<group>";
+		};
+		79D32B051D91B182816821B8D00AD681 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A06F4E6EDABE68C9EDE4FFD7A362D98 /* SnapKit.modulemap */,
+				9F87FDDB8A4D2C18DEB380ED002DAFD6 /* SnapKit-dummy.m */,
+				28916FAB2F82BB2A2C96E94DBD8D8263 /* SnapKit-Info.plist */,
+				BE9558D258B567B0FE99E50751B63D4A /* SnapKit-prefix.pch */,
+				80E373973D065356A1A2CA6F79B670FC /* SnapKit-umbrella.h */,
+				F1F585DC14344786EB56C653ED824A57 /* SnapKit.debug.xcconfig */,
+				2E6CBC2F281AFAF6B70FC04503CC2697 /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		8E037FF44654F158039D78A587601AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CABE854B0CE98845E717AA19F12F372 /* GoogleWebRTC */,
+				4E56405F759915C6B3F797D0B34B05DD /* SnapKit */,
+				4DC731A98271C118D58AAF062A9B7D72 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9A04AB8EA68CAB15CB5E49747FBCCA8 /* Pods-KWebRTCP2PDemo_swift */ = {
+			isa = PBXGroup;
+			children = (
+				781F1CBC5CAB45D98BAC6CB5A6E75C58 /* Pods-KWebRTCP2PDemo_swift.modulemap */,
+				AD909BDD1C7C4C032BA6A20080C206FD /* Pods-KWebRTCP2PDemo_swift-acknowledgements.markdown */,
+				01C68A01FBB1AD0D0D5E27E124493D18 /* Pods-KWebRTCP2PDemo_swift-acknowledgements.plist */,
+				BC407E86984654D51D70A29868D1EE85 /* Pods-KWebRTCP2PDemo_swift-dummy.m */,
+				A56515350D628B9AC6B9BBBB8D44D5B5 /* Pods-KWebRTCP2PDemo_swift-frameworks.sh */,
+				B6747DC322B93BE263B0749C8A8A9BC4 /* Pods-KWebRTCP2PDemo_swift-Info.plist */,
+				2983A0E251037837FC72849029986B46 /* Pods-KWebRTCP2PDemo_swift-umbrella.h */,
+				D9B077B15425231905C2FA0159A86221 /* Pods-KWebRTCP2PDemo_swift.debug.xcconfig */,
+				042221A64636ABB254576BBE1B25A5A6 /* Pods-KWebRTCP2PDemo_swift.release.xcconfig */,
+			);
+			name = "Pods-KWebRTCP2PDemo_swift";
+			path = "Target Support Files/Pods-KWebRTCP2PDemo_swift";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C13B9849BC185ABA92EBE2FA9534EC02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E514C3944EC4B66714A839295EBFB667 /* GoogleWebRTC.debug.xcconfig */,
+				E8EBFF5E27F8FDA3DBD7CE9908855F4D /* GoogleWebRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleWebRTC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8E037FF44654F158039D78A587601AE9 /* Pods */,
+				5AECDAB72D5B4671A985B12A82BDB76D /* Products */,
+				0E8B1048115845D4445A6DFF117A131B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE2DB52F9570D233E8AAD1D4D7B9D7A9 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0331804714BDFCAA56894D1893FAD38E /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.modulemap */,
+				A7FCEC826F19CCF2418BD97C93D528FA /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-acknowledgements.markdown */,
+				8B390CCA5CE74B5173F750139D3ABA06 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-acknowledgements.plist */,
+				43D6468F1CA3BF37A91DE02E7037E404 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-dummy.m */,
+				AD2B59916D7F324D13FEB50D40CFF649 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-frameworks.sh */,
+				C544E0AB4B6AF2412840845963E6C547 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-Info.plist */,
+				C214D3ACDD8F4B9DE861CEC8196616CC /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-umbrella.h */,
+				CC066EB81A5D3D540E3C48D590C0533B /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig */,
+				042B98FA79FB19B1C9F5C857E5F927D6 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig */,
+			);
+			name = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests";
+			path = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36DDD3F658A2B775F8B39BBFA6561635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911B8AAFFC3D9C1566A1CCD95088B91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260FD0E9426AE39429DF20CD833A24C0 /* Pods-KWebRTCP2PDemo_swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A384AFB77D9578A6D87B125438E5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA5B5E94266FFAFCEBCA139B850E853 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD37AF9B9F78580D159AE761C456202 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A6283FDFA04E3A7B6FD0C13B6FEF32 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5168E550B1D6101681B25C82E31B68B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12833D340E66DFA848DCD653E750C7EF /* Pods-KWebRTCP2PDemo_swiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C2F67A24EFF2D5F6410E6A9D00BB2A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				36DDD3F658A2B775F8B39BBFA6561635 /* Headers */,
+				948D48E19F2A3CAC37461E0DA4FF9A87 /* Sources */,
+				73A173863657894A01CB54BA862DDBBA /* Frameworks */,
+				1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9037DCD72F33CE1B4E7BCE8570B51CA4 /* Pods-KWebRTCP2PDemo_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AEA367E964C3E302854890FDFBBABF /* Build configuration list for PBXNativeTarget "Pods-KWebRTCP2PDemo_swiftTests" */;
+			buildPhases = (
+				E5168E550B1D6101681B25C82E31B68B /* Headers */,
+				867185184535D9210B821A4B69095CBB /* Sources */,
+				861ABB90E2538D82A9A9C929F279B52F /* Frameworks */,
+				A19EF161DFD5A687957B68E0974F93E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E9B9846018BB29E186C0234C8EA813 /* PBXTargetDependency */,
+			);
+			name = "Pods-KWebRTCP2PDemo_swiftTests";
+			productName = "Pods-KWebRTCP2PDemo_swiftTests";
+			productReference = 3A38044F0A22C5728DFCAEAF915CC8D3 /* Pods_KWebRTCP2PDemo_swiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5C15C705AB67930733A7E237A0A33A /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				ABD37AF9B9F78580D159AE761C456202 /* Headers */,
+				621EE447A1C117BDCD418F5DE070FD3C /* Sources */,
+				09206235EB9393FD6D895453F2569AF9 /* Frameworks */,
+				BE174469BA3F43D1B5CE60520CA93EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A97AFA5DA96CE533E278D8617A2F5603 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7081EE132B0B76E5A7B34DBBBA13F78A /* Build configuration list for PBXNativeTarget "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests" */;
+			buildPhases = (
+				A70A384AFB77D9578A6D87B125438E5D /* Headers */,
+				F68D665C8D054057DD659E95CBE7C00F /* Sources */,
+				EB82DDF03E5985F280CBAD82F4F3CFEE /* Frameworks */,
+				F24D2E264F48E1B74182E6B9BE8D5CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C4108748121C0BCEEBB35CFD1807DD3 /* PBXTargetDependency */,
+				6750DAB4CC339DBCDBE3B661CDC2F820 /* PBXTargetDependency */,
+				AF5A0D6BC4C0BA62165BA7D314964C2B /* PBXTargetDependency */,
+			);
+			name = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests";
+			productName = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests";
+			productReference = AE546B10B4A4321C7AC138BF76680503 /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDB8EF2BF1ADD1B59D89BE216832D5AF /* Pods-KWebRTCP2PDemo_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADF01D40D0E00AA64FD46CACA02BC47 /* Build configuration list for PBXNativeTarget "Pods-KWebRTCP2PDemo_swift" */;
+			buildPhases = (
+				6911B8AAFFC3D9C1566A1CCD95088B91 /* Headers */,
+				1A2E23D6341E1427BE098CC4803B8531 /* Sources */,
+				4CB7E41CEF06709199790EE013ED251D /* Frameworks */,
+				19DDDD356F1CD432241DD8576E437D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A36416B91BE2350BE970770649CC31 /* PBXTargetDependency */,
+				C6644B48EB075CA92A89F7EDD05463AB /* PBXTargetDependency */,
+				4065571FED8CD5F88D08B4BC7153EC11 /* PBXTargetDependency */,
+			);
+			name = "Pods-KWebRTCP2PDemo_swift";
+			productName = "Pods-KWebRTCP2PDemo_swift";
+			productReference = 5123DACE8CC9C433490AF7A81CB6634D /* Pods_KWebRTCP2PDemo_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5AECDAB72D5B4671A985B12A82BDB76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */,
+				BDB8EF2BF1ADD1B59D89BE216832D5AF /* Pods-KWebRTCP2PDemo_swift */,
+				A97AFA5DA96CE533E278D8617A2F5603 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests */,
+				9037DCD72F33CE1B4E7BCE8570B51CA4 /* Pods-KWebRTCP2PDemo_swiftTests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DDDD356F1CD432241DD8576E437D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EF161DFD5A687957B68E0974F93E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE174469BA3F43D1B5CE60520CA93EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D2E264F48E1B74182E6B9BE8D5CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2E23D6341E1427BE098CC4803B8531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8396CF8D95F459D4A97F9DBC5216444D /* Pods-KWebRTCP2PDemo_swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621EE447A1C117BDCD418F5DE070FD3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068E5963381B58D7D8CD321462F567ED /* Compression.swift in Sources */,
+				1627E6FA0453D6DB472BA444F1D32AE7 /* SSLClientCertificate.swift in Sources */,
+				8B3350D96B15B975184C8EE0819F9623 /* SSLSecurity.swift in Sources */,
+				294D61E8A195B6A1F6AEDCF0F73599A5 /* Starscream-dummy.m in Sources */,
+				C02D9FEB295BDA1359D2F52C80F8E75A /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867185184535D9210B821A4B69095CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60024F68A443341A8944D8B1CEF14B66 /* Pods-KWebRTCP2PDemo_swiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948D48E19F2A3CAC37461E0DA4FF9A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */,
+				A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */,
+				A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */,
+				9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */,
+				9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */,
+				6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */,
+				54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */,
+				F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */,
+				CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */,
+				DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */,
+				276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				095547A88EE037F12395713A469C9B60 /* ConstraintLayoutSupport.swift in Sources */,
+				F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				5C376607904258A10F4DDD6D42EFC491 /* ConstraintMaker.swift in Sources */,
+				4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */,
+				FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */,
+				0FA8E62C7A4A6DA9BB841007B5E16CD4 /* ConstraintMakerFinalizable.swift in Sources */,
+				8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */,
+				35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */,
+				A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */,
+				72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */,
+				A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */,
+				14E9ACC5796C5E35C84DD6659BEB788F /* ConstraintPriorityTarget.swift in Sources */,
+				E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */,
+				C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */,
+				77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */,
+				5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */,
+				DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */,
+				9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */,
+				BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */,
+				7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */,
+				5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */,
+				0D7A7F3919AE48736753181756DE8AE8 /* Typealiases.swift in Sources */,
+				98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68D665C8D054057DD659E95CBE7C00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271040EC2ADCF4FF60F68150B6963DF7 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C4108748121C0BCEEBB35CFD1807DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = 5DD309FC5DE1418F06F8D6B5DB280EA1 /* PBXContainerItemProxy */;
+		};
+		4065571FED8CD5F88D08B4BC7153EC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 52252E517BAAB486D716D275650D5AAA /* PBXContainerItemProxy */;
+		};
+		49E9B9846018BB29E186C0234C8EA813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KWebRTCP2PDemo_swift";
+			target = BDB8EF2BF1ADD1B59D89BE216832D5AF /* Pods-KWebRTCP2PDemo_swift */;
+			targetProxy = 04800D846597BE9F58349695A1DFF6AC /* PBXContainerItemProxy */;
+		};
+		6750DAB4CC339DBCDBE3B661CDC2F820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 2407BB29EC1D5C7757E5B14D993C7D31 /* PBXContainerItemProxy */;
+		};
+		A5A36416B91BE2350BE970770649CC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleWebRTC;
+			target = EC23BFCFC44D9224C054485B54824B8E /* GoogleWebRTC */;
+			targetProxy = B8A5C7AF9C1B0D418D4105714D50CECC /* PBXContainerItemProxy */;
+		};
+		AF5A0D6BC4C0BA62165BA7D314964C2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = BAEE8A4FA047986C5C795AF5394992F6 /* PBXContainerItemProxy */;
+		};
+		C6644B48EB075CA92A89F7EDD05463AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 547DCDC9C69E5FCF5E83138EB76F29C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23DAA796EA37EA24566495280E748F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782152B5FA0D91882432D06E86A0938A /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35BC321697BA712E466815924337D1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C7B2A49B813763EC5F610598476ABB /* Starscream.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40E74F522C722B59D9EBAF66110306C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3838FDBC0E111A070C711F4893F5BA03 /* Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests/Pods-KWebRTCP2PDemo_swiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests/Pods-KWebRTCP2PDemo_swiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45E4CE56E05E803D31A06573D6E36E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F585DC14344786EB56C653ED824A57 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E3FD183284DADB65AB4315032D438DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC066EB81A5D3D540E3C48D590C0533B /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67B9A365C959242544AF772BDA14CA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EBFF5E27F8FDA3DBD7CE9908855F4D /* GoogleWebRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6F01B4DF35479FA6AF49DE09B8A50F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B077B15425231905C2FA0159A86221 /* Pods-KWebRTCP2PDemo_swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		893C630E26597E8E7275A0FF1C1C97CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042B98FA79FB19B1C9F5C857E5F927D6 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC601F7D5B5FF9ACADEF7F05EABC4FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B614E8284F947A0F860761838D0B055 /* Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests/Pods-KWebRTCP2PDemo_swiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests/Pods-KWebRTCP2PDemo_swiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B321C6506D33D3CC2FA3C7F1A6A2C162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E514C3944EC4B66714A839295EBFB667 /* GoogleWebRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B684A96705059391DEFC2F09DE349E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042221A64636ABB254576BBE1B25A5A6 /* Pods-KWebRTCP2PDemo_swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D552522BADED3A3607EBC60A1F7DC655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6CBC2F281AFAF6B70FC04503CC2697 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B664D4DBF22B3F6B271154516833C2 /* Build configuration list for PBXAggregateTarget "GoogleWebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B321C6506D33D3CC2FA3C7F1A6A2C162 /* Debug */,
+				67B9A365C959242544AF772BDA14CA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C2F67A24EFF2D5F6410E6A9D00BB2A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E4CE56E05E803D31A06573D6E36E5B /* Debug */,
+				D552522BADED3A3607EBC60A1F7DC655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADF01D40D0E00AA64FD46CACA02BC47 /* Build configuration list for PBXNativeTarget "Pods-KWebRTCP2PDemo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F01B4DF35479FA6AF49DE09B8A50F8B /* Debug */,
+				B684A96705059391DEFC2F09DE349E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7081EE132B0B76E5A7B34DBBBA13F78A /* Build configuration list for PBXNativeTarget "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3FD183284DADB65AB4315032D438DF /* Debug */,
+				893C630E26597E8E7275A0FF1C1C97CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AEA367E964C3E302854890FDFBBABF /* Build configuration list for PBXNativeTarget "Pods-KWebRTCP2PDemo_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC601F7D5B5FF9ACADEF7F05EABC4FF7 /* Debug */,
+				40E74F522C722B59D9EBAF66110306C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5C15C705AB67930733A7E237A0A33A /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DAA796EA37EA24566495280E748F06 /* Debug */,
+				35BC321697BA712E466815924337D1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

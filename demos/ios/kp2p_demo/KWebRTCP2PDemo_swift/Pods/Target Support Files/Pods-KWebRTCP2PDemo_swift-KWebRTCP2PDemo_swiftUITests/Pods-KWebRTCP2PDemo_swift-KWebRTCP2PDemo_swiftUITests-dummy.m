@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests
+@end

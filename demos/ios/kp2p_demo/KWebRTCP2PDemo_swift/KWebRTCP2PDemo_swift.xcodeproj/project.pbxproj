@@ -16,6 +16,9 @@
 		540544F224B95EF700739C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540544F024B95EF700739C0D /* LaunchScreen.storyboard */; };
 		540544FD24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540544FC24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift */; };
 		5405450824B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5405450724B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift */; };
+		799C44A6653C4AE9EDC51254 /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE54B8E1C12E4ECCE36D40C /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework */; };
+		7B905577F199847EBFA6A46E /* Pods_KWebRTCP2PDemo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E4780E6565392CAF5363F1 /* Pods_KWebRTCP2PDemo_swift.framework */; };
+		FA2666ED25858B67B6494840 /* Pods_KWebRTCP2PDemo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB0251FA8A9A1A676B6976 /* Pods_KWebRTCP2PDemo_swiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1278807F1AFC9AC7E429AB89 /* Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests/Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		28F797251EF09BE96A8A8A90 /* Pods-KWebRTCP2PDemo_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWebRTCP2PDemo_swift.release.xcconfig"; path = "Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift.release.xcconfig"; sourceTree = "<group>"; };
+		418211BBEFF8218920C24990 /* Pods-KWebRTCP2PDemo_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWebRTCP2PDemo_swift.debug.xcconfig"; path = "Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		42EB0251FA8A9A1A676B6976 /* Pods_KWebRTCP2PDemo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWebRTCP2PDemo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		540544DF24B95EF400739C0D /* KWebRTCP2PDemo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWebRTCP2PDemo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		540544E224B95EF400739C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		540544E424B95EF400739C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		5405450324B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWebRTCP2PDemo_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5405450724B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWebRTCP2PDemo_swiftUITests.swift; sourceTree = "<group>"; };
 		5405450924B95EF700739C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655DC41F38AE69A6A38FA7B7 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76C5DD5975B3594D6E16039D /* Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-KWebRTCP2PDemo_swiftTests/Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5F31E7F14B37033425D373 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE54B8E1C12E4ECCE36D40C /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E4780E6565392CAF5363F1 /* Pods_KWebRTCP2PDemo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWebRTCP2PDemo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B905577F199847EBFA6A46E /* Pods_KWebRTCP2PDemo_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2666ED25858B67B6494840 /* Pods_KWebRTCP2PDemo_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799C44A6653C4AE9EDC51254 /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				540544FB24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests */,
 				5405450624B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests */,
 				540544E024B95EF400739C0D /* Products */,
+				F6FB080E1E64862F4863BB24 /* Pods */,
+				6C6CD534155ADC39F8D6454F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = KWebRTCP2PDemo_swiftUITests;
 			sourceTree = "<group>";
 		};
+		6C6CD534155ADC39F8D6454F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E4780E6565392CAF5363F1 /* Pods_KWebRTCP2PDemo_swift.framework */,
+				CAE54B8E1C12E4ECCE36D40C /* Pods_KWebRTCP2PDemo_swift_KWebRTCP2PDemo_swiftUITests.framework */,
+				42EB0251FA8A9A1A676B6976 /* Pods_KWebRTCP2PDemo_swiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6FB080E1E64862F4863BB24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				418211BBEFF8218920C24990 /* Pods-KWebRTCP2PDemo_swift.debug.xcconfig */,
+				28F797251EF09BE96A8A8A90 /* Pods-KWebRTCP2PDemo_swift.release.xcconfig */,
+				655DC41F38AE69A6A38FA7B7 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig */,
+				BE5F31E7F14B37033425D373 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig */,
+				76C5DD5975B3594D6E16039D /* Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig */,
+				1278807F1AFC9AC7E429AB89 /* Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5405450C24B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swift" */;
 			buildPhases = (
+				E101CAF7226B5AD58E52125A /* [CP] Check Pods Manifest.lock */,
 				540544DB24B95EF400739C0D /* Sources */,
 				540544DC24B95EF400739C0D /* Frameworks */,
 				540544DD24B95EF400739C0D /* Resources */,
+				C525C5B601FAF72295CD4226 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5405450F24B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swiftTests" */;
 			buildPhases = (
+				83D3DEC5807EE40140555349 /* [CP] Check Pods Manifest.lock */,
 				540544F424B95EF700739C0D /* Sources */,
 				540544F524B95EF700739C0D /* Frameworks */,
 				540544F624B95EF700739C0D /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5405451224B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swiftUITests" */;
 			buildPhases = (
+				036B15F7E3F2135A97900770 /* [CP] Check Pods Manifest.lock */,
 				540544FF24B95EF700739C0D /* Sources */,
 				5405450024B95EF700739C0D /* Frameworks */,
 				5405450124B95EF700739C0D /* Resources */,
+				FA4A269F70AC7236D9396B29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036B15F7E3F2135A97900770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D3DEC5807EE40140555349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KWebRTCP2PDemo_swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C525C5B601FAF72295CD4226 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KWebRTCP2PDemo_swift/Pods-KWebRTCP2PDemo_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E101CAF7226B5AD58E52125A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KWebRTCP2PDemo_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4A269F70AC7236D9396B29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests/Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		540544DB24B95EF400739C0D /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		5405450D24B95EF700739C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418211BBEFF8218920C24990 /* Pods-KWebRTCP2PDemo_swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		5405450E24B95EF700739C0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F797251EF09BE96A8A8A90 /* Pods-KWebRTCP2PDemo_swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		5405451024B95EF700739C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C5DD5975B3594D6E16039D /* Pods-KWebRTCP2PDemo_swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		5405451124B95EF700739C0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1278807F1AFC9AC7E429AB89 /* Pods-KWebRTCP2PDemo_swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		5405451324B95EF700739C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655DC41F38AE69A6A38FA7B7 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		5405451424B95EF700739C0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5F31E7F14B37033425D373 /* Pods-KWebRTCP2PDemo_swift-KWebRTCP2PDemo_swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

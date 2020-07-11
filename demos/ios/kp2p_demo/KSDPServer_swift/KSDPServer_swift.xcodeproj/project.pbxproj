@@ -14,6 +14,8 @@
 		5405452C24B95F9800739C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5405452A24B95F9800739C0D /* Main.storyboard */; };
 		5405453824B95F9800739C0D /* KSDPServer_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5405453724B95F9800739C0D /* KSDPServer_swiftTests.swift */; };
 		5405454324B95F9800739C0D /* KSDPServer_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5405454224B95F9800739C0D /* KSDPServer_swiftUITests.swift */; };
+		540545D224B9657000739C0D /* KWebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540545D124B9657000739C0D /* KWebSocketServer.swift */; };
+		540545D424B9658700739C0D /* KWebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540545D324B9658700739C0D /* KWebSocketClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		5405453E24B95F9800739C0D /* KSDPServer_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSDPServer_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5405454224B95F9800739C0D /* KSDPServer_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSDPServer_swiftUITests.swift; sourceTree = "<group>"; };
 		5405454424B95F9800739C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540545D124B9657000739C0D /* KWebSocketServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWebSocketServer.swift; sourceTree = "<group>"; };
+		540545D324B9658700739C0D /* KWebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWebSocketClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		5405452024B95F9500739C0D /* KSDPServer_swift */ = {
 			isa = PBXGroup;
 			children = (
+				540545D024B963BA00739C0D /* server */,
+				540545CF24B963AA00739C0D /* client */,
 				5405452124B95F9500739C0D /* AppDelegate.swift */,
 				5405452324B95F9500739C0D /* ViewController.swift */,
 				5405452824B95F9800739C0D /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				5405454424B95F9800739C0D /* Info.plist */,
 			);
 			path = KSDPServer_swiftUITests;
+			sourceTree = "<group>";
+		};
+		540545CF24B963AA00739C0D /* client */ = {
+			isa = PBXGroup;
+			children = (
+				540545D324B9658700739C0D /* KWebSocketClient.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		540545D024B963BA00739C0D /* server */ = {
+			isa = PBXGroup;
+			children = (
+				540545D124B9657000739C0D /* KWebSocketServer.swift */,
+			);
+			path = server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			files = (
 				5405452724B95F9500739C0D /* KSDPServer_swift.xcdatamodeld in Sources */,
 				5405452424B95F9500739C0D /* ViewController.swift in Sources */,
+				540545D424B9658700739C0D /* KWebSocketClient.swift in Sources */,
+				540545D224B9657000739C0D /* KWebSocketServer.swift in Sources */,
 				5405452224B95F9500739C0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
