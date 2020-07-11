@@ -34,7 +34,10 @@ class KWebSocketServer {
     //启动服务
     func start() {
         //设置接收到消息的代理回调
-        self.listener.newConnectionHandler = newConnectionHandler(_:)
+        listener.newConnectionHandler = newConnectionHandler(_:)
+        //开启服务器后台监听
+        listener.start(queue: queue)
+        print("启动成功信令服务器，端口：\(port)")
     }
 
 }
@@ -87,6 +90,22 @@ fileprivate extension KWebSocketServer {
             client.connection.cancel()
             //通知上层，有连接断开
             didDisconnected(client: client)
+            return
+        }
+        //如果有收到数据，则发送给其他客户端
+        if let data = data {
+            let others = connectedClients.filter{ $0 != client }
+            //发送广播给这些客户端
+            _ = broadcast(msg: data, to: others)
+            if let msg = String(data: data, encoding: .utf8) {
+                print("****收到消息：\(msg) \n")
+            }
+        }
+        
+        //继续接受其他消息
+        client.connection.receiveMessage { [weak self] (data, context, isFinished, error) in
+            print("收到消息：data=\(String(describing: data)),context=\(String(describing: context)),isFinished=\(isFinished),err=\(String(describing: error))")
+            self?.didReceivedMsg(from: client, data: data, context: context, error: error)
         }
     }
     

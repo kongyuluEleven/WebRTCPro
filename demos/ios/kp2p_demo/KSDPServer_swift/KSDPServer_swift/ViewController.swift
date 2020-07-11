@@ -9,10 +9,12 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    private var server:KWebSocketServer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        server = try? KWebSocketServer()
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +24,13 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func startServer(_ sender: Any) {
+        guard let server = server else {
+            print("没有创建server")
+            return
+        }
+        server.start()
+    }
+    
 }
 
