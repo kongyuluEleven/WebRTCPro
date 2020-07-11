@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540544E324B95EF400739C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540544E224B95EF400739C0D /* AppDelegate.swift */; };
+		540544E524B95EF400739C0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540544E424B95EF400739C0D /* SceneDelegate.swift */; };
+		540544E724B95EF400739C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540544E624B95EF400739C0D /* ViewController.swift */; };
+		540544EA24B95EF400739C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540544E824B95EF400739C0D /* Main.storyboard */; };
+		540544ED24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 540544EB24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodeld */; };
+		540544EF24B95EF700739C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540544EE24B95EF700739C0D /* Assets.xcassets */; };
+		540544F224B95EF700739C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540544F024B95EF700739C0D /* LaunchScreen.storyboard */; };
+		540544FD24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540544FC24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift */; };
+		5405450824B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5405450724B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540544F924B95EF700739C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540544D724B95EF400739C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540544DE24B95EF400739C0D;
+			remoteInfo = KWebRTCP2PDemo_swift;
+		};
+		5405450424B95EF700739C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540544D724B95EF400739C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540544DE24B95EF400739C0D;
+			remoteInfo = KWebRTCP2PDemo_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540544DF24B95EF400739C0D /* KWebRTCP2PDemo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWebRTCP2PDemo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540544E224B95EF400739C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		540544E424B95EF400739C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		540544E624B95EF400739C0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		540544E924B95EF400739C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		540544EC24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KWebRTCP2PDemo_swift.xcdatamodel; sourceTree = "<group>"; };
+		540544EE24B95EF700739C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540544F124B95EF700739C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		540544F324B95EF700739C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540544F824B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWebRTCP2PDemo_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540544FC24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWebRTCP2PDemo_swiftTests.swift; sourceTree = "<group>"; };
+		540544FE24B95EF700739C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5405450324B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWebRTCP2PDemo_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5405450724B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWebRTCP2PDemo_swiftUITests.swift; sourceTree = "<group>"; };
+		5405450924B95EF700739C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540544DC24B95EF400739C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540544F524B95EF700739C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5405450024B95EF700739C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540544D624B95EF400739C0D = {
+			isa = PBXGroup;
+			children = (
+				540544E124B95EF400739C0D /* KWebRTCP2PDemo_swift */,
+				540544FB24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests */,
+				5405450624B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests */,
+				540544E024B95EF400739C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540544E024B95EF400739C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540544DF24B95EF400739C0D /* KWebRTCP2PDemo_swift.app */,
+				540544F824B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.xctest */,
+				5405450324B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540544E124B95EF400739C0D /* KWebRTCP2PDemo_swift */ = {
+			isa = PBXGroup;
+			children = (
+				540544E224B95EF400739C0D /* AppDelegate.swift */,
+				540544E424B95EF400739C0D /* SceneDelegate.swift */,
+				540544E624B95EF400739C0D /* ViewController.swift */,
+				540544E824B95EF400739C0D /* Main.storyboard */,
+				540544EE24B95EF700739C0D /* Assets.xcassets */,
+				540544F024B95EF700739C0D /* LaunchScreen.storyboard */,
+				540544F324B95EF700739C0D /* Info.plist */,
+				540544EB24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodeld */,
+			);
+			path = KWebRTCP2PDemo_swift;
+			sourceTree = "<group>";
+		};
+		540544FB24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				540544FC24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift */,
+				540544FE24B95EF700739C0D /* Info.plist */,
+			);
+			path = KWebRTCP2PDemo_swiftTests;
+			sourceTree = "<group>";
+		};
+		5405450624B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5405450724B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift */,
+				5405450924B95EF700739C0D /* Info.plist */,
+			);
+			path = KWebRTCP2PDemo_swiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540544DE24B95EF400739C0D /* KWebRTCP2PDemo_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5405450C24B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swift" */;
+			buildPhases = (
+				540544DB24B95EF400739C0D /* Sources */,
+				540544DC24B95EF400739C0D /* Frameworks */,
+				540544DD24B95EF400739C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWebRTCP2PDemo_swift;
+			productName = KWebRTCP2PDemo_swift;
+			productReference = 540544DF24B95EF400739C0D /* KWebRTCP2PDemo_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540544F724B95EF700739C0D /* KWebRTCP2PDemo_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5405450F24B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swiftTests" */;
+			buildPhases = (
+				540544F424B95EF700739C0D /* Sources */,
+				540544F524B95EF700739C0D /* Frameworks */,
+				540544F624B95EF700739C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540544FA24B95EF700739C0D /* PBXTargetDependency */,
+			);
+			name = KWebRTCP2PDemo_swiftTests;
+			productName = KWebRTCP2PDemo_swiftTests;
+			productReference = 540544F824B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5405450224B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5405451224B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swiftUITests" */;
+			buildPhases = (
+				540544FF24B95EF700739C0D /* Sources */,
+				5405450024B95EF700739C0D /* Frameworks */,
+				5405450124B95EF700739C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5405450524B95EF700739C0D /* PBXTargetDependency */,
+			);
+			name = KWebRTCP2PDemo_swiftUITests;
+			productName = KWebRTCP2PDemo_swiftUITests;
+			productReference = 5405450324B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540544D724B95EF400739C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wondershare;
+				TargetAttributes = {
+					540544DE24B95EF400739C0D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					540544F724B95EF700739C0D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 540544DE24B95EF400739C0D;
+					};
+					5405450224B95EF700739C0D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 540544DE24B95EF400739C0D;
+					};
+				};
+			};
+			buildConfigurationList = 540544DA24B95EF400739C0D /* Build configuration list for PBXProject "KWebRTCP2PDemo_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540544D624B95EF400739C0D;
+			productRefGroup = 540544E024B95EF400739C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540544DE24B95EF400739C0D /* KWebRTCP2PDemo_swift */,
+				540544F724B95EF700739C0D /* KWebRTCP2PDemo_swiftTests */,
+				5405450224B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540544DD24B95EF400739C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540544F224B95EF700739C0D /* LaunchScreen.storyboard in Resources */,
+				540544EF24B95EF700739C0D /* Assets.xcassets in Resources */,
+				540544EA24B95EF400739C0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540544F624B95EF700739C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5405450124B95EF700739C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540544DB24B95EF400739C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540544E724B95EF400739C0D /* ViewController.swift in Sources */,
+				540544E324B95EF400739C0D /* AppDelegate.swift in Sources */,
+				540544ED24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodeld in Sources */,
+				540544E524B95EF400739C0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540544F424B95EF700739C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540544FD24B95EF700739C0D /* KWebRTCP2PDemo_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540544FF24B95EF700739C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5405450824B95EF700739C0D /* KWebRTCP2PDemo_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540544FA24B95EF700739C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540544DE24B95EF400739C0D /* KWebRTCP2PDemo_swift */;
+			targetProxy = 540544F924B95EF700739C0D /* PBXContainerItemProxy */;
+		};
+		5405450524B95EF700739C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540544DE24B95EF400739C0D /* KWebRTCP2PDemo_swift */;
+			targetProxy = 5405450424B95EF700739C0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		540544E824B95EF400739C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540544E924B95EF400739C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		540544F024B95EF700739C0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540544F124B95EF700739C0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5405450A24B95EF700739C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5405450B24B95EF700739C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5405450D24B95EF700739C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KWebRTCP2PDemo_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wondershare..KWebRTCP2PDemo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5405450E24B95EF700739C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KWebRTCP2PDemo_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wondershare..KWebRTCP2PDemo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5405451024B95EF700739C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KWebRTCP2PDemo_swiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wondershare..KWebRTCP2PDemo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWebRTCP2PDemo_swift.app/KWebRTCP2PDemo_swift";
+			};
+			name = Debug;
+		};
+		5405451124B95EF700739C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KWebRTCP2PDemo_swiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wondershare..KWebRTCP2PDemo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWebRTCP2PDemo_swift.app/KWebRTCP2PDemo_swift";
+			};
+			name = Release;
+		};
+		5405451324B95EF700739C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KWebRTCP2PDemo_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wondershare..KWebRTCP2PDemo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KWebRTCP2PDemo_swift;
+			};
+			name = Debug;
+		};
+		5405451424B95EF700739C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KWebRTCP2PDemo_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wondershare..KWebRTCP2PDemo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KWebRTCP2PDemo_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540544DA24B95EF400739C0D /* Build configuration list for PBXProject "KWebRTCP2PDemo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5405450A24B95EF700739C0D /* Debug */,
+				5405450B24B95EF700739C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5405450C24B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5405450D24B95EF700739C0D /* Debug */,
+				5405450E24B95EF700739C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5405450F24B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5405451024B95EF700739C0D /* Debug */,
+				5405451124B95EF700739C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5405451224B95EF700739C0D /* Build configuration list for PBXNativeTarget "KWebRTCP2PDemo_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5405451324B95EF700739C0D /* Debug */,
+				5405451424B95EF700739C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		540544EB24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				540544EC24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodel */,
+			);
+			currentVersion = 540544EC24B95EF400739C0D /* KWebRTCP2PDemo_swift.xcdatamodel */;
+			path = KWebRTCP2PDemo_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 540544D724B95EF400739C0D /* Project object */;
+}
